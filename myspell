@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+comm -23 <(cat - | tr -cs 'A-Za-z' '[\n*]' | sort -u) <(cat sorted.words | tr -cs 'A-Za-z' '[\n*]' | sort -u)
