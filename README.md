@@ -1,7 +1,10 @@
 # CS35L-Assignment1
+
+This shell script is a "crude implementation of an English spelling checker." See the assignment spec below for more details. 
+
+
 ### Assignment Spec: 
 Examine the file /usr/share/dict/linux.words, which contains a list of English words, one per line. Each word consists of one or more ASCII characters.
-
 Sort this file and put the sorted output into a file sorted.words.
 
 Then, take a text file containing the HTML in this assignment’s web page, and run the following commands with that text file being standard input. For each command tr, sort, comm, read the command’s man page and use that to deduce what the command should do given its operands here. Also, look generally at what each command outputs (in particular, how its output differs from that of the previous command), and why.
