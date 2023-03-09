@@ -1,5 +1,5 @@
 # CS35L-Assignment1
-## Assignment Spec: 
+### Assignment Spec: 
 Examine the file /usr/share/dict/linux.words, which contains a list of English words, one per line. Each word consists of one or more ASCII characters.
 
 Sort this file and put the sorted output into a file sorted.words.
